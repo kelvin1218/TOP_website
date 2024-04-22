@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+
+header {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.width{
+    width: 80%;
+    margin: auto;
+    border-style: solid;
+    border-color: yellow;
+}
+
+.logolink{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 12px;
+    border-color: blue;
+    border-style: solid;
+
+    
+
+}
+
+.logolink > * {
+    background-color: red;
+    
+}
+
+#headlogo{
+    margin-right: auto;
+    background-color: green;
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+
+li{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+main {
+    background-color: #1F2937;
+    color: #fff;
+    border-style: solid;
+    border-color: purple;
+}
+
+main .width{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.mainsec {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    border-style: solid;
+    border-color: red;
+}
+
+.mainimg {
+    margin: 50px 0px;
+    border-style: solid;
+    border-color: blue;
+
+}
+
+.heromain{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.herosec{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav{
+    background-color: #3882F6;
+    align-self: flex-start;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.infohead{
+    font-size: 36px;
+    text-align:center;
+    font-weight: bolder;
+    color: #1F2937;
+
+}
+
+.boxof8{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 70%;
+}
+
+.box{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+}
+
+
+

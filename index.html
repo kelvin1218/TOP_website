@@ -5,69 +5,83 @@
  <meta charset="utf-8">
  <meta name="author" content="Kai">
  <title> My First Website</title>
- <link rel="stylesheet" href="css/style.css"
+ <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <ol class="logolink">
-          <li>Header Logo</li>
-          <li>header link one</li>
-          <li>header link two</li>  
-          <li>header link three</li>
-        </ol>
+        <div class="width">
+            <ul class="logolink">
+            <li id="headlogo">Header Logo</li>
+            <li>header link one</li>
+            <li>header link two</li>  
+            <li>header link three</li>
+            </ul>
+        </div>
     </header>
     
     <main>
-        <section class="mainsec">
-            <div>
-                <p>This website is awesome</p>
-            </div>
-            <div>
-                <p>This website has some subtext that goes here  under the main title. It is a smaller font and the color is lower contrast</p>
-            </div>
-            <nav>
-                <p>Sign up</p>
-            </nav>
-        </section>
-        <section class="mainimg">
-            <img src="img/img.png" alt="this is a placeholder for an image">
-        </section>
+        <div class="width">
+            <section class="mainsec">
+                
+                    <p><span class="heromain"><strong>This website is awesome</strong></span> </p>
+                
+                
+                    <p><span class="herosec">This website has some subtext that goes here  under the main title. It is a smaller font and the color is lower contrast</span></p>
+                
+                <nav>
+                    <p><strong>Sign up</strong></p>
+                </nav>
+            </section>
+            <section class="mainimg">
+                <img src="img/img.png" alt="this is a placeholder for an image">
+            </section>
+        </div>
     </main>
 
     <section>
-        <div><p>Some random information</p></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div><p>this is some subtext under an illustration or immage</p></div>
-        <div><p>this is some subtext under an illustration or immage</p></div>
-        <div><p>this is some subtext under an illustration or immage</p></div>
-        <div><p>this is some subtext under an illustration or immage</p></div>
+        <div class="width">
+            <div class="infohead"><p><strong>Some random information.</strong></p></div>
+            <div class="boxof8">
+                <div class="box"><img src="img/img.png" alt="nothing"></div>
+                <div class="box"><img src="img/img.png" alt="nothing"></div>
+                <div class="box"><img src="img/img.png" alt="nothing"></div>
+                <div class="box"><img src="img/img.png" alt="nothing"></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+            </div>
+        </div>
     </section>
 
     <section>
-      <div class="container">  
-        <div> <p>This is an inspiring  quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All that I know is that it looks nice</p></div>
-        <div><p>-Thor, God of Thunder</p></div>
-      </div>  
+        <div class="width">
+            <div class="container">  
+                <div> <p>This is an inspiring  quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All that I know is that it looks nice</p></div>
+                <div><p>-Thor, God of Thunder</p></div>
+            </div>  
+      </div>
     </section>
 
-    <aside>
-        <section>
-            <section class="calltext">
-                <div><p>Call to action! It's time!</p></div>
-                <div><p>Sign up for our product by clicking </p></div>
-            </section>
-            <section class="callbutton">
-                <div><p>Sign up</p></div>
-            </section>
-        </section>
-    </aside>
+    <section>
+        <div class="width">
+            <aside>
+                <div class="calltext">
+                    <div><p>Call to action! It's time!</p></div>
+                    <div><p>Sign up for our product by clicking </p></div>
+                </div>
+                <div class="callbutton">
+                    <div><p>Sign up</p></div>
+                </div>
+            </aside>
+        </div>
+    </section>
 
     <footer>
-        <div><p> Copyright <span>&copy;</span>The Odin Project 2021</p></div>
+        <div class="width">
+        <div class="foot"><p> Copyright <span>&copy;The Odin Project 2021</p></div>
+        </div>
     </footer>
 </body>
 
