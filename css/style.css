@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
+    /* outline: 1px solid brown; */
 }
 
 
@@ -15,8 +16,7 @@ header {
 .width{
     width: 80%;
     margin: auto;
-    border-style: solid;
-    border-color: yellow;
+    /* outline: 1px solid y ellow; */
 }
 
 .logolink{
@@ -24,21 +24,21 @@ header {
     list-style-type: none;
     justify-content: center;
     gap: 12px;
-    border-color: blue;
-    border-style: solid;
+    /* border-color: blue; */
+    /* border-style: solid; */
 
     
 
 }
 
 .logolink > * {
-    background-color: red;
+    /* background-color: red; */
     
 }
 
 #headlogo{
     margin-right: auto;
-    background-color: green;
+    /* background-color: green; */
     color: #F9FAF8;
     font-size: 24px;
     
@@ -53,8 +53,8 @@ li{
 main {
     background-color: #1F2937;
     color: #fff;
-    border-style: solid;
-    border-color: purple;
+    /* border-style: solid; */
+    /* border-color: purple; */
 }
 
 main .width{
@@ -67,15 +67,20 @@ main .width{
     display: flex;
     flex-direction: column;
     margin: 50px 0px;
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid; */
+    /* border-color: red; */
 }
 
 .mainimg {
     margin: 50px 0px;
-    border-style: solid;
-    border-color: blue;
+    /* border-style: solid;
+    border-color: blue; */
+    display: flex;
 
+}
+
+.mainimg > * {
+    flex: 1 ;
 }
 
 .heromain{
@@ -101,20 +106,36 @@ nav{
     text-align:center;
     font-weight: bolder;
     color: #1F2937;
+    margin-top: 2rem;
 
 }
 
 .boxof8{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; */
     display: grid;
-    gap: 1rem;
     grid-template-columns: repeat(4,1fr);
-    max-width: 70%;
+    margin: 2rem 200px;
+    gap: 1rem;
+    row-gap: 0px;
+
 }
 
-.box{
+.boxof8 > *{
+    font-size: smaller;
+    
+}
+
+.box {
     border-style: solid;
     border-radius: 10px;
+    border-color: aqua;
 }
+
+img {max-width: 100%}
+
 
 footer{
     background-color: #1F2937;
@@ -122,5 +143,44 @@ footer{
     text-align: center;
 }
 
+.quoteback {
+    background-color: #E5E7EB;
+    padding: 4rem;
+}
 
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.thor {
+    text-align: right;
+    font-size: 18px;
+}
+
+.calltext{
+    /* outline: 1px solid red; */
+    margin-right: auto;
+}
+
+.call1{
+    font-size: 24px;
+    /* outline: 1px solid red; */
+}
+
+aside {
+    display: flex;
+    background-color: #3882F6;
+    padding: 25px 50px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 4rem 4rem;
+}
+
+.callbutton {
+    align-self: center;
+    outline: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
 
